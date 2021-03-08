@@ -1,0 +1,31 @@
+.secondaryBoxes {
+  background: var(--yellow);
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  height: 47%;
+}
+
+.topa {
+  display: grid;
+}
+
+.heroa {
+  grid-area: hero;
+  min-height: 400px;
+  background: white
+    url("https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/taco.jpg");
+  background-size: cover;
+  background-position: bottom right;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.heroa > * {
+  background: var(--yellow);
+  padding: 5px;
+}
